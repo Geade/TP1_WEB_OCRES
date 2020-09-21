@@ -1,40 +1,109 @@
 .monfond {
     
-    background-color: white;
+    background-color: #343434;
     /*background-image: url('Image 3.png');*/
     display : flex;
+    position: fixed;
     justify-content: left;
-    padding-top: 0.5em;
-    height: 6em;
-}
-.monFblanc {
-    
-    background-color: rgba(255, 255, 255, .75);
-    display : flex;
-    justify-content: left;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    height: 5em;
+    padding-top: 5px;
     width: 100%;
-   /* height: 100%;*/
+    height: 50px;
+}
+monfond{
+    text-align: center;
+    width: 100%; margin-left: 50px;margin-top: 5px;
 }
 .maphoto{
-    width: 5em;
-    height: 5em;
-    margin-left: 0.5em;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
     border-radius: 50%; 
-    position: relative;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
-.titre{
+
+.entier{
+    width: 550px;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 5%;
+
+
+}
+.nompre{
+    margin-top:100px; 
+}
+titre{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
-    margin:0; 
+    font-size: 5em;
+    margin: 0;
     padding: 0;
 }
+.titre {
+    font-size: 40px; 
+    font-weight: bold;
+    margin: auto;
+}
+.titre2 {
+    font-size: 20px; 
+    font-weight: bold;
+    margin: auto;
+}
+navbar{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 13px;
+    font-weight: 50;
+    margin-right: 50px;
+}
+.description{
+    margin-left: 125px;
+    width: 75%;
+}
 
+body{
+    
+}
+article{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin-top:0;
+    color: white;
+}
+ligne{
+    display: flex;
+}
+.baredetitre{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+}
+.baredescription{
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 360px;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+}
+.barecompetence{
+    background-color: rgba(0,0,0,.6);
+    margin: auto;
+}
+.competence{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 
-  
-
-  
+}
+footer {
+    text-align: center; background-color: #343434;
+    width: 100%;
+    justify-content: center;
+    padding: 2px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
